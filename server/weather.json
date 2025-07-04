@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "weather": {
+        "command": "/opt/homebrew/bin/uv",
+        "args": [
+            "run",
+            "--with",
+            "mcp[cli]",
+            "mcp",
+            "run",
+            "/Applications/Vignesh Usage/Coding/Python/mcpcourse/mcpcrashcourse/server/weather.py"
+        ]
+        }
+    }
+}
